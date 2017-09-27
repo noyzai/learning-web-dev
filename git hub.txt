@@ -1,0 +1,7 @@
+git init ==> new project
+
+git status ==> untuk melihat status only udah dimana
+
+git add . ==> menambahkan semua file ke stage utk dipersiapkan dipush ke repository
+
+git commit -m "learning web development"
