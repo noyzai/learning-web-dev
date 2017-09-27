@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #474955;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: #ecf0ec;
+}
+
+.tengah {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    /* background-color:#7ccfbf;  */
+}
+
+.namawebsite{
+    width: 30%;
+    height: 75%;
+    float: left;
+    /* background-color: #F5f4f3; */
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    color:#474955;
+}
+
+nav {
+    width: 320px;
+    height: 75px;
+    float: right;
+    /* background-color: #F5f4f3; */
+}
+
+nav ul {list-style: none;}
+
+nav ul li {
+    float: left;
+    padding: 10px;
+    width: 50px;
+}
+
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #474955;
+    font-family: 'Roboto',sans-serif;
+}
+
+nav ul li a:hover{
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+li ul {
+    display: none;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+li ul li{float: none;}
+
+li:hover ul{
+    display: block;
+    width: 150px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    z-index: 9999;
+    position: relative;
+    right: -50;
+}
+
+li a:hover {
+    color: #5acbe3;
+}
+
+
+
+#slide {
+    width: 100%;
+    height: 500px;
+    background-color: #474955;
+}
+
+#portfolio {
+    width: 100%;
+    height: 300px;
+    background-color: #ecf0f1;
+    padding: 100px 0;
+}
+
+.kotak {
+    width: 350px;
+    height: 300px;
+    float: left;
+}
+
+.kotak1 {
+    width: 320px;
+    height: 150px;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Yanone Kaffesatz', sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 45px;
+    background-color: #474955;
+    color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* about  */
+
+.paget {
+    width: 100%;
+    height: 75px;
+    background-color: #474955;
+}
+
+h4 {
+    margin: 0;
+    color: #ecf0f1;
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#about {
+    width: 100%;
+    height: 500px;
+    background-color: #ECF0F1;
+}
+
+.te {
+    width: 48%;
+    height: 78.5%;
+    margin: 0 auto;
+    background-color: #db6B71;
+    float: left ;
+    padding: 5% 1%;
+}
+
+#galeri {
+        width: 100%;
+        height: 200px;
+        background-color: #222222
+}
+
+/* blog  */
+
+#blog {
+    width: 100%;
+    height: 500px;
+    background-color: #ECF0F1;
+}
+
+/* Contact  */
+#contact {
+    width: 100%;
+    height: 500px;
+    background-color: #ECF0F1;
+}

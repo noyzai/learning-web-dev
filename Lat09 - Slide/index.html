@@ -1,0 +1,42 @@
+<html>
+
+        <title>Efek Slide</title>
+    <head>
+            <script type="text/javascript" src="Jquery/jquery-3.2.1.min.js"></script>
+            
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $(".flip").click(function(){
+                        $(".pesan").slideToggle("slow");
+                    });
+                });
+            </script>
+
+            <style>
+                div.pesan{
+                    height: 120;
+                    display: none;
+                }
+
+                div.pesan, p.flip{
+                    margin: 0px;
+                    padding: 0px;
+                    text-align: center;
+                    background: lightyellow;
+                    border: 1px;
+                }
+
+            </style>
+    </head>
+ 
+
+    <body>
+        <div class="pesan">sukses bukanlah kunci kebahagiaan <br>
+            Kebahagiaanlah kunci kesuksesan
+            <p>jika senantiasa melakukan segala sesuatu dengan penuh cinta, maka anda akan sukses</p>
+
+        </div>
+
+        <p class="flip">Tampilkan/sembunyikan pesan</p>
+    </body>
+</html>
